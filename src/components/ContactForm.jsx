@@ -10,7 +10,7 @@ const ContactForm=()=>{
             </div>
             <input type="text" placeholder="Name" name="name" className="bg-[#ccd6f6] p-2"></input>
             <input type="email" placeholder="Email" name="email" className="my-4 p-2 bg-[#ccd6f6]" ></input>
-            <textarea name="message" rows="6" placeholder="Message"  className="my-4 p-2 bg-[#ccd6f6]"></textarea>
+            <textarea name="message" rows="4" placeholder="Message"  className="my-4 p-2 bg-[#ccd6f6]"></textarea>
             <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mt-8 mb-4 mx-auto flex items-center">Let's Collaborate</button>
         </form>
     </div>
