@@ -61,10 +61,10 @@ const NavBar=()=>{
 
                 <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
                     <ul>
-                        <SocialIcons color={"bg-blue-600"} >Linkedin</SocialIcons> 
-                        <SocialIcons color={"bg-[#333]"} >Github</SocialIcons> 
-                        <SocialIcons color={"bg-[#6fc2b0]"} >Email</SocialIcons> 
-                        <SocialIcons color={"bg-[#565f69]"} >Resume</SocialIcons> 
+                        <SocialIcons color={"bg-blue-600"} href="https://www.linkedin.com/in/sugandh-rastogi-538ba7214/">Linkedin</SocialIcons> 
+                        <SocialIcons color={"bg-[#333]"}  href="https://github.com/sugandh-rastogi">Github</SocialIcons> 
+                        <SocialIcons color={"bg-[#6fc2b0]"} href="mailto:sugandhrastogi27@gmail.com" >Email</SocialIcons> 
+                        <SocialIcons color={"bg-[#565f69]"} href="https://drive.google.com/file/d/1XE8xqqDv6BL8Y359gUQHOZwe6rj-7S9Z/view?usp=sharing">Resume</SocialIcons> 
                     </ul>
                 </div>
         </div>

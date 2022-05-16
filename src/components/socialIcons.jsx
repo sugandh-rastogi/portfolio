@@ -15,7 +15,7 @@ const SocialIcons=(props)=>{
 
     return(
         <li className={'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 '+props.color}>
-            <a href="#" className="flex justify-between items-center w-full text-gray-300 ">
+            <a href={props.href} target="_blank" className="flex justify-between items-center w-full text-gray-300 ">
                 {props.children} {icon}
             </a>
         </li>
